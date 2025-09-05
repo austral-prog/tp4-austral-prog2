@@ -17,4 +17,4 @@ def line():
     print(f"\tP1 ({x1}, {y1})")
     print(f"\tP2 ({x2}, {y2})")
     print("\n")
-    print(f"La distancia entre ellos es: {((x2 - x1) + (y2 - y1))}")
+    print(f"La distancia entre ellos es: {((x2 - x1) ** 2 + (y2 - y1) ** 2) ** 0.5}")
