@@ -7,8 +7,12 @@ def line():
     print(f"El coeficiente B de su ecuación de la recta es: {b}")
     print(f"El coeficiente X1 de su ecuación de la recta es: {x1}")
     print(f"El coeficiente X2 de su ecuación de la recta es: {x2}")
+    print("\n")
     print("Para la siguiente ecuación:")
     print(f"\tY = {a}X + {b}")
+    print("\n")
     print("Dados los siguiente puntos:")
     print(f"\tP1 ({x1}, {a*x1+b})")
     print(f"\tP2 ({x2}, {a*x2+b})")
+    print("\n")
+    print("La distancia entre ellos es: {
