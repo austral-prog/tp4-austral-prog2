@@ -12,7 +12,9 @@ def line():
     print(f"\tY = {a}X + {b}")
     print("\n")
     print("Dados los siguiente puntos:")
-    print(f"\tP1 ({x1}, {a*x1+b})")
-    print(f"\tP2 ({x2}, {a*x2+b})")
+    y1 = a*x1+b
+    y2 = a*x2+b
+    print(f"\tP1 ({x1}, {y1})")
+    print(f"\tP2 ({x2}, {y2})")
     print("\n")
     print(f"La distancia entre ellos es: {sqrt((x2 - x1)**2 + (y2 - y1)**2)}")
