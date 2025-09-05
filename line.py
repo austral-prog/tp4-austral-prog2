@@ -15,4 +15,4 @@ def line():
     print(f"\tP1 ({x1}, {a*x1+b})")
     print(f"\tP2 ({x2}, {a*x2+b})")
     print("\n")
-    print("La distancia entre ellos es: {
+    print("La distancia entre ellos es: {|x2-x1|}")
