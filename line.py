@@ -15,5 +15,4 @@ def line():
     print(f"\tP1 ({x1}, {a*x1+b})")
     print(f"\tP2 ({x2}, {a*x2+b})")
     print("\n")
-    distancia = 8
-    print(f"La distancia entre ellos es: {distancia}")
+    print(f"La distancia entre ellos es: {sqrt((x2 - x1)**2 + (y2 - y1)**2)}")
