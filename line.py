@@ -11,8 +11,11 @@ def line():
     print("Para la siguiente ecuación:")
     print(f"\tY = {a}X + {b}")
     print("\n")
+    y1 = a*x1+b
+    y2 = a*x2+b
     print("Dados los siguiente puntos:")
-    print(f"\tP1 ({x1}, {a*x1+b})")
-    print(f"\tP2 ({x2}, {a*x2+b})")
+    print(f"\tP1 ({x1}, {y1})")
+    print(f"\tP2 ({x2}, {y2})")
     print("\n")
-    print("La distancia entre ellos es: {|x2-x1|}")
+    distancia = 
+    print(f"La distancia entre ellos es: {distancia}")
